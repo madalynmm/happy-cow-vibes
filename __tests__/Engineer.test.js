@@ -1,4 +1,3 @@
-// const { default: test } = require("node:test");
 const Engineer = require("../lib/Engineer");
 
 test("Can set GitHub account via constructor", () => {
