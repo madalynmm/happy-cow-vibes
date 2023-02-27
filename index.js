@@ -91,7 +91,7 @@ function appMenu() {
           type: 'list',
           name: 'role',
           message: "Would you like to add a new member to your team?",
-          choices: ["Engineer", "Intern", "None"],
+          choices: ["Engineer", "Intern", "Finish Building Team"],
         }
       ])
       .then((answer) => {
