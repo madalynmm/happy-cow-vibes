@@ -1,5 +1,3 @@
-__tests__/Manager.test.js
-
 const Manager = require("../lib/Manager");
 const Employee = require("../lib/Employee");
 
@@ -10,9 +8,13 @@ test("Can set office number via constructor argument", () => {
 });
 
 test("getRole() should return \"Manager\"", () => {
-  // insert code here
+  const testValue = "Manager";
+  const e = new Manager("Alice", 1, "test@email.com", "101");
+  expect(e.office).toBe(testValue);
 });
 
 test("Can get office number via getOffice()", () => {
-  // insert code here
+  const testValue = "101";
+  const e = new Manager("Alice", 1, "test@email.com", testValue);
+  expect(e.getOffice()).toBe(testValue);
 });
