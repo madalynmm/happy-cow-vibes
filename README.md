@@ -20,3 +20,4 @@ This application requires Node.js, Express.js, Inquirer, Path, and Jest.
 The functionality of the program can be tested via "npm run test" command.
 
 ## Demonstration
+[Walkthrough of Application](https://drive.google.com/file/d/1Q88JKem6Ad77GoGk1ulkdPmCRoasozyz/view?usp=share_link)
